@@ -5,40 +5,49 @@
 ### • for in loop
 ### • for of loop
 ### Ans: • while loop The while loop loops through a block of code as long as a specified condition is true.
-```js - Syntax:-while (condition) {
+```js 
+- Syntax:-while (condition) {
      // code block to be executed
- - }``` 
-```js ex:- while (i < 100) {
+ - }
+ ``` 
+```js 
+ex:- while (i < 100) {
  text += "The number is " + i;
  i++;
  }
  ```
 ### • do-while loop:The do while loop is a variant of the while loop. This loop will execute the code block once, before checking if the condition is true, then it will repeat the loop as long as the condition is true.
-```js - Syntax:-do {
+```js 
+- Syntax:-do {
 - // code block to be executed
 - }
-- while (condition);```
+- while (condition);
+```
 
- ```js- ex:-do {
+ ```js
+ - ex:-do {
  -    text += "The number is " + i;
  - i++;
 - }
  - while (i < 10);
  ```   
 ### •for loop:The for statement creates a loop with 3 optional expressions:
-```js -Syntax:for (expression 1; expression 2; expression 3) {
+```js 
+-Syntax:for (expression 1; expression 2; expression 3) {
 // code block to be executed
 }
 ```
 ### Expression 1 is executed (one time) before the execution of the code block.
 ### Expression 2 defines the condition for executing the code block.
 ### Expression 3 is executed (every time) after the code block has been executed.
-```js for (let i = 0; i < 20; i++) {
+```js 
+for (let i = 0; i < 20; i++) {
   text += "The number is " + i + "<br>";
 }
 ```
 ### •for in loop:The JavaScript for in statement loops through the properties of an Object:
-```js Syntax:-for (key in object) {
+```js
+ Syntax:-for (key in object) {
 // code block to be executed
 }
 ```
