@@ -53,13 +53,15 @@ for (let i = 0; i < 20; i++) {
 ```
 ```const employee = {name:"arun", salary:50000, age:25};```
 
-``` js let text = "";
+``` js
+ let text = "";
 for (let i in employee) {
   text += employee[i];
 }
 ```
 ### •for of loop:The JavaScript for of statement loops through the values of an iterable object.
-```js Syntax:-for (variable of iterable) {
+```js
+ Syntax:-for (variable of iterable) {
 // code block to be executed
 }
 ```
@@ -67,7 +69,8 @@ for (let i in employee) {
 ### iterable - An object that has iterable properties.
 ``` const fruits = ["Apple", "Orange", "Kiwi"];```
 
-```js let text = "";
+```js
+ let text = "";
 for (let i of fruits) {
   text += i;
 }
@@ -78,7 +81,8 @@ for (let i of fruits) {
 ### Function scope
 ### Global scope
 ### Block Scope:-ES6 introduced two important new JavaScript keywords: let and const.These two keywords provide Block Scope in ###JavaScript.Variables declared inside a { } block cannot be accessed from outside the block:
-```js {
+```js
+ {
   let i = 2;
 }
 ```
