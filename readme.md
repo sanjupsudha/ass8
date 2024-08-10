@@ -42,7 +42,7 @@ ex:- while (i < 100) {
 ### Expression 3 is executed (every time) after the code block has been executed.
 ```js 
 for (let i = 0; i < 20; i++) {
-  text += "The number is " + i + "<br>";
+  text += "The number is " + ;
 }
 ```
 ### •for in loop:The JavaScript for in statement loops through the properties of an Object:
